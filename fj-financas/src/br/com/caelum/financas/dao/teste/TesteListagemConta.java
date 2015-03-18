@@ -8,6 +8,10 @@ import br.com.caelum.financas.dao.ContaDao;
 import br.com.caelum.financas.modelo.Conta;
 import br.com.caelum.financas.util.JPAUtil;
 
+/**
+ * @author jefferson
+ *
+ */
 public class TesteListagemConta {
 
 	public static void main(String[] args) {

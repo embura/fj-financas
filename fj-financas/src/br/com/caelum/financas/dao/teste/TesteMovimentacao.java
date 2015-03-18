@@ -18,7 +18,6 @@ public class TesteMovimentacao {
 		
 		EntityManager manager = new  JPAUtil().getEntityManager();
 
-		ContaDao dao = new ContaDao(manager);
 		Conta conta = new Conta();
 
 		conta.setTitulo("José Roberto");
@@ -31,6 +30,9 @@ public class TesteMovimentacao {
 		movimentacao.setDescricao("conta de luz - abril/2014");
 		movimentacao.setValor(new BigDecimal("54"));
 		movimentacao.setTipoMovimentacao(TipoMovimetacao.SAIDA);
+		
+		/*manager.getTransaction().commit();
+		manager.close();*/
 
 	}
 
