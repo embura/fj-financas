@@ -1,0 +1,22 @@
+{          
+"values": [
+  {
+    "id":"01",
+    "name": {
+      "value": "Coringa"
+    }
+  },
+  {
+    "id":"02",
+    "name": {
+      "value": "Aves de rapina"
+    }
+  },
+  {
+    "id":"03",
+    "name": {
+      "value": "Mundo de bob"
+    }
+  }
+]
+}
